@@ -24,7 +24,7 @@ const sendEmail = async (email, token) => {
         html: `
         <h3>Reset Password Link</h3>, 
         <p>Click the Link below or Copy and Paste it in your browser<p/>
-        <a href="http://localhost:5173/resetpasswordlink?auth=${token}">
+        <a href="https://gtd28-password-reset-frontend.netlify.app/resetpasswordlink?auth=${token}">
             ResetPasswordLink
         </a>
         `
